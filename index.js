@@ -216,8 +216,19 @@ const transporter = nodemailer.createTransport({
 		from: "b.chaudhary12102@gmail.com",
 		to: mailList,
 		subject: sub,
-		text: 'Click the following link to join our Google Meet: ' + 'https://meet.google.com/tdr-raxa-mha',
+		html: `
+			<p>I hope this email finds you well. We appreciate your interest in the position at our company and would like to invite you for an interview to further discuss your qualifications and explore how your skills align with our team.</p>
+			<p>Interview Details:</p>
+			<p>Date: <p> ${interview_date}
+			<p>Time: <p> ${startTime}
+			<p>Location: https://meet.google.com/tdr-raxa-mha</p>
+			<p>To confirm your attendance, please reply to this email.</p>
+			<p>We look forward to meeting with you and discussing your potential contributions to our team. Thank you for considering us as your potential employer.</p>
+			<p>Best regards,</p>
+			
+		`,
 	};
+	
 
 	transporter.sendMail(options, function (err, info) {
 		if (err) {
