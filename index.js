@@ -225,7 +225,13 @@ const transporter = nodemailer.createTransport({
 			<p>To confirm your attendance, please reply to this email.</p>
 			<p>We look forward to meeting with you and discussing your potential contributions to our team. Thank you for considering us as your potential employer.</p>
 			<p>Best regards,</p>
-			
+
+			<p> </p>
+
+			<p>RSVP:</p>
+				<a href="https://work-navy.vercel.app/">Yes</a>
+				<a href="https://works-kohl.vercel.app/">No</a>
+
 		`,
 	};
 	
