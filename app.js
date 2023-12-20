@@ -68,6 +68,17 @@ app.get("/createEvent", (req, res) => {
       'dateTime': '2023-12-11T5:30:00+00:00',
       'timeZone': 'Asia/Kolkata',
     },
+    'summary': 'Interview',
+    'location': 'Online',
+    'description': 'Meet between bhoomika & Nupur',
+    'start': {
+      'dateTime': '2023-12-27T04:30:00+00:00',
+      'timeZone': 'Asia/Kolkata',
+    },
+    'end': {
+      'dateTime': '2023-12-11T5:30:00+00:00',
+      'timeZone': 'Asia/Kolkata',
+    },
     'attendees': [],
     'reminders': {
       'useDefault': false,

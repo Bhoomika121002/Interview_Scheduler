@@ -212,6 +212,18 @@ const transporter = nodemailer.createTransport({
 
 	console.log(mailList)
 
+	function generateMeetLink() {
+		// Generate a unique identifier for the meeting link (you can use a timestamp or a random string generator)
+		const uniqueIdentifier = Math.random().toString(36).substring(7); // Example: Random 7-character string
+		
+		// Return the Google Meet link with the unique identifier
+		return `https://meet.google.com/${uniqueIdentifier}`;
+	}
+	
+	// Generate a new Google Meet link
+	const meetLink = generateMeetLink();
+
+	
 	const options = {
 		from: "b.chaudhary12102@gmail.com",
 		to: mailList,
@@ -221,7 +233,7 @@ const transporter = nodemailer.createTransport({
 			<p>Interview Details:</p>
 			<p>Date: <p> ${interview_date}
 			<p>Time: <p> ${startTime}
-			<p>Location: https://meet.google.com/tdr-raxa-mha</p>
+			<p>Location: </p> ${meetLink}
 			<p>To confirm your attendance, please reply to this email.</p>
 			<p>We look forward to meeting with you and discussing your potential contributions to our team. Thank you for considering us as your potential employer.</p>
 			<p>Best regards,</p>
