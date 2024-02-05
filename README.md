@@ -170,6 +170,8 @@ Proven online scheduling software is now readily available to all-sized organiza
 
 [4] Tran, Linh & Stojcevski, Alex & Pham, Thanh & Souza-Daw, Tony & Nguyen, Nhan & Nguyen, Vinh & Nguyen, Chau. (2016). A smart meeting room scheduling and management system with utilization control and ad-hoc support based on real-time occupancy detection. 186-191. 10.1109/CCE.2016.7562634. 
 
+_This repository contains all the information related to the project._
+
 
 
 
