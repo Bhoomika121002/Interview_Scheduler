@@ -17,7 +17,9 @@ In today's fast-paced work environment, coordinating and managing daily meetings
 
 ## OBJECTIVES
 • To distribute incoming tasks or jobs based on importance evenly across available resources to prevent resource bottleneck and also help users to get information according to the requirements. 
+
 • To generate instant notifications for real time communication with clientele. 
+
 • To deploy schedulers on the cloud to ensure high availability of applications and services by distributing tasks across multiple servers or instances.
 
 ## METHODOLOGY
