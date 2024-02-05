@@ -151,16 +151,21 @@ DEPLOYMENT:
 
 ## CONCLUSION
 In this project, we will design and develop an application for interview scheduling.
+
 • Users will have access to this application in order to view their assigned slots for the interview.
 • It will be simpler for people to obtain the required details concerning their interview.
 • It will save a lot of time, effort, and money as well as a large amount of paperwork for the interviewer as well as the learner.
+
 Technological advancements have caught up with most industries and the smaller tasks they conduct. The scheduling and management of interviews is no exception. 
 Proven online scheduling software is now readily available to all-sized organizations and for all scheduling needs, regardless of the scope of the job, the number of staff members, and their budgets. This technology can transform the daunting process of scheduling and enable them to run more efficiently and profitably.
 
 ## REFERENCES
 [1] Thalawattha, Sathsara & Vidanagama, Dushyanthi. (2021). A Survey on Web-based Meeting Scheduling Application. 
+
 [2] Perera, Poornima & Vidanagama, Dushyanthi. (2020). A WEB-BASED PAPERLESS MEETING MANAGEMENT SYSTEM. 
+
 [3] Erik Timmerman, C., Shik Choi, C., 2017. Meeting Technologies. https://doi.org/10.1002/9781118955567.wbieoc132
+
 [4] Tran, Linh & Stojcevski, Alex & Pham, Thanh & Souza-Daw, Tony & Nguyen, Nhan & Nguyen, Vinh & Nguyen, Chau. (2016). A smart meeting room scheduling and management system with utilization control and ad-hoc support based on real-time occupancy detection. 186-191. 10.1109/CCE.2016.7562634. 
 
 
